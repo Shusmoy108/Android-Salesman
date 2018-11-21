@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.example.shusmoy.arong_salesman.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="378dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="0.28">
+
+                <Button
+                    android:text="অর্ডার"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:id="@+id/mil"
+                    android:onClick="salesorder"
+                    android:background="#99ff99"
+                    android:textColor="#000000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.28"
+                android:weightSum="1">
+
+                <Button
+                    android:text="অর্ডার সমূহ"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/button10"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:onClick="orders"
+                    android:backgroundTint="#cdf3ff"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:text="নতুন দোকান"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/button6"
+        android:layout_weight="0.90"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:onClick="add_shop"
+        android:textColor="#000000"
+        android:backgroundTint="#ccff99" />
+
+</LinearLayout>

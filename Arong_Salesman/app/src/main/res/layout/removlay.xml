@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffcc">
+
+    <TextView
+        android:text="বিল নম্বর "
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView4"
+        android:layout_weight="0.18"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/ono"
+        android:layout_weight="0.18" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.42">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rm"
+            android:layout_marginBottom="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="rdone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+            android:text="মুছে ফেলুন"
+            android:background="#ff33b5e5" />
+    </RelativeLayout>
+
+</LinearLayout>

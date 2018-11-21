@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:backgroundTint="#e992a1"
+    android:background="#339900">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="পরিমাণ"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:id="@+id/textView6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_weight="0.35" />
+
+            <TextView
+                android:text="      দর"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:id="@+id/textView8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_weight="0.33" />
+
+
+            <TextView
+                android:text="কয়টা লাগবে"
+                android:layout_width="112dp"
+                android:layout_height="53dp"
+                android:id="@+id/textView7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_weight="0.29" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="দুধ (ফিনো প্যাক) ১/২ লিটার"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.28" />
+
+
+
+            <TextView
+                android:text="৩৫/-"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr1২"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+            <EditText
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/lit10"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="চকলেট ড্রিংক ২৫০ মিলি"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.28" />
+
+
+
+            <TextView
+                android:text="২০/-"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr2২"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+            <EditText
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/lit20"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="স্ট্রবেরি ইয়োগার্ট ড্রিংক ২৫০ মিলি"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.28" />
+
+
+
+            <TextView
+                android:text="২০/-"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr3২"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+            <EditText
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/lit30"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="তেঁতুল ড্রিংক ২৫০ মিলি"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.28" />
+
+
+
+            <TextView
+                android:text="৩৫/-"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/litr4২"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+            <EditText
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/lit40"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:layout_weight="0.15" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_weight="0.42"
+        android:weightSum="1">
+
+        <Button
+            android:text="অর্ডার"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_weight="0.41"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:onClick="uorder"
+            android:backgroundTint="#FF33B5E5"
+            android:textColor="#000000" />
+
+        <Button
+            android:text="মেমো"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_weight="0.30"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:onClick="memo"
+            android:textColor="#000000"
+            android:backgroundTint="#FF33B5E5" />
+
+        <Button
+            android:text="কাজ শেষ"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:id="@+id/button5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:background="#FF33B5E5"
+            android:textColor="#000000"
+            android:layout_weight="0.09"
+            android:onClick="ret_prod" />
+    </LinearLayout>
+
+</LinearLayout>

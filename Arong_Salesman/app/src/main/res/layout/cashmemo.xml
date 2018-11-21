@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffff66">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mem"
+        android:layout_weight="0.97" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:weightSum="1">
+
+        <Button
+            android:text="কাজ শেষ "
+            android:layout_width="98dp"
+            android:layout_height="68dp"
+            android:id="@+id/dn"
+            android:onClick="don"
+            android:backgroundTint="#FF33B5E5" />
+
+        <Button
+            android:text="অর্ডার মুছুন"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:id="@+id/rmv"
+            android:onClick="rmov"
+            android:backgroundTint="#FF33B5E5" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="159dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="সিরিয়াল নম্বর "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/kl"
+                android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
